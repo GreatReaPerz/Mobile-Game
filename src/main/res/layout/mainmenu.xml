@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgnd"
+    android:orientation="horizontal"
+
+    tools:context="assignment.sidm.com.assignment01_ver2.Mainmenu">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="98dp"
+        android:layout_height="53dp"
+
+        android:layout_above="@+id/btn_setting"
+        android:layout_alignLeft="@+id/btn_setting"
+        android:layout_alignStart="@+id/btn_setting"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/button"
+        android:text="START"
+        android:textColor="#EDEFCF"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/btn_credits"
+        android:layout_width="98dp"
+        android:layout_height="53dp"
+        android:layout_alignLeft="@+id/btn_start"
+        android:layout_alignStart="@+id/btn_start"
+        android:layout_alignTop="@+id/btn_start"
+        android:layout_marginTop="53dp"
+        android:background="@drawable/button"
+        android:text="Credits"
+        android:textColor="#EDEFCF"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="98dp"
+        android:layout_height="53dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginEnd="192dp"
+        android:layout_marginRight="192dp"
+        android:background="@drawable/button"
+        android:text="Settings"
+        android:textColor="#EDEFCF"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="227dp" />
+
+</RelativeLayout>
